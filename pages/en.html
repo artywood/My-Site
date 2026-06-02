@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Fun Scissors — kids hair salon in Astrakhan</title>
+    <meta
+      content="kids hair salon, Fun Scissors, kids haircut, online booking, Astrakhan, children hairstyles"
+      name="keywords"
+    />
+    <meta
+      content="Full English version of the Fun Scissors kids hair salon website with online booking, services, prices, gallery, reviews and Yandex map."
+      name="description"
+    />
+    <meta content="#fff7d7" name="theme-color" />
+    <link href="../assets/img/logo.svg" rel="icon" type="image/svg+xml" />
+    <link href="../assets/css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="top-bar">
+      <div class="container top-bar__inner">
+        <span>Kids hair salon for children aged 1–12 · Astrakhan</span>
+        <div class="top-bar__links">
+          <a href="tel:+79999999999">+7 999 999 999</a>
+          <a href="mailto:nozhnichki@mail.ru">nozhnichki@mail.ru</a>
+        </div>
+      </div>
+    </div>
+    <header class="site-header">
+      <div class="container header__inner">
+        <a aria-label="Fun Scissors — home" class="logo" href="en.html">
+          <img
+            alt="Fun Scissors"
+            height="52"
+            src="../assets/img/logo.svg"
+            width="180"
+          />
+        </a>
+        <nav aria-label="Main navigation" class="main-nav" data-nav="">
+          <a class="nav-direct" href="en.html">Home</a>
+          <a class="nav-direct" href="#about">About</a>
+          <a class="nav-direct" href="#services">Services</a>
+          <a class="nav-direct" href="#prices">Prices</a>
+          <a class="nav-direct" href="#gallery">Gallery</a>
+          <a class="nav-direct" href="#reviews">Reviews</a>
+          <a class="nav-direct" href="#contacts">Contacts</a>
+          <a class="nav-direct" href="layout.html">Layout</a>
+        </nav>
+        <div class="header__actions">
+          <a aria-label="Русская версия" class="lang-link" href="../index.html"
+            >RU</a
+          >
+          <a class="btn btn--small" href="#booking">Book</a>
+          <button
+            aria-expanded="false"
+            aria-label="Open menu"
+            class="burger"
+            data-burger=""
+          >
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__copy">
+            <p class="eyebrow">✂ Kids hair salon since 2019</p>
+            <h1>Haircuts for kids <span>without tears</span> and stress</h1>
+            <p class="lead">
+              Fun Scissors is a bright and friendly place where children feel
+              safe and parents can book a visit quickly: playful atmosphere,
+              adapted furniture, safe products and simple online booking.
+            </p>
+            <div class="hero__actions">
+              <a class="btn" href="#booking">Book online</a>
+              <a class="btn btn--ghost" href="#services">View services</a>
+            </div>
+            <div class="badges">
+              <span class="badge">👶 Ages 1–12</span>
+              <span class="badge">🧸 Play area</span>
+              <span class="badge">🛡️ Safe coloring</span>
+              <span class="badge">📱 Mobile-friendly</span>
+            </div>
+          </div>
+          <div aria-label="Kids hair salon illustration" class="hero__visual">
+            <div class="hero-card">
+              <img
+                alt="Child in kids salon"
+                height="520"
+                loading="eager"
+                src="../assets/img/hero-salon-photo.png"
+                width="620"
+              />
+            </div>
+            <div class="floating-note">
+              <strong>3 clicks to book</strong
+              ><span
+                >Choose a service, master, date and confirm your visit.</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="booking-card" id="booking">
+        <div class="container booking-card__inner">
+          <div class="booking-card__top">
+            <div>
+              <p class="eyebrow">Booking on the main page</p>
+              <h2>Choose a convenient time</h2>
+              <p>
+                A short form for parents with clear fields and a bright
+                call-to-action button.
+              </p>
+            </div>
+            <a class="btn btn--blue" href="booking.html">Full booking form</a>
+          </div>
+          <form
+            aria-label="Quick online booking"
+            class="booking-form form-grid"
+          >
+            <div class="field">
+              <label for="quick-name-en">Your name</label>
+              <input
+                id="quick-name-en"
+                name="parentName"
+                placeholder="Maria"
+                required=""
+                type="text"
+              />
+            </div>
+            <div class="field">
+              <label for="quick-phone-en">Phone</label>
+              <input
+                id="quick-phone-en"
+                name="phone"
+                placeholder="+7 999 999 999"
+                required=""
+                type="tel"
+              />
+            </div>
+            <div class="field">
+              <label for="quick-service-en">Service</label>
+              <select id="quick-service-en" name="service" required="">
+                <option value="">Choose</option>
+                <option>Boys haircut</option>
+                <option>Girls haircut</option>
+                <option>Holiday hairstyle</option>
+                <option>Safe coloring</option>
+                <option>Braids / afro braids</option>
+                <option>Hair-care consultation</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="quick-date-en">Date</label>
+              <input id="quick-date-en" name="date" required="" type="date" />
+            </div>
+            <div class="form-foot">
+              <label class="captcha-line"
+                ><input name="captcha" required="" type="checkbox" /> Google
+                reCAPTCHA will be connected on launch</label
+              >
+              <button class="btn" type="submit">Send request</button>
+            </div>
+            <div aria-live="polite" class="form-status" role="status"></div>
+          </form>
+        </div>
+      </section>
+      <section class="section" id="about">
+        <div class="container about-grid">
+          <div class="info-panel">
+            <p class="eyebrow">About us</p>
+            <h2>Care, safety and joy</h2>
+            <p>
+              The salon opened in 2019 and specializes in haircuts and hair care
+              for children aged 1 to 12. Inside, there is a playful atmosphere,
+              learning corners and furniture adapted for children.
+            </p>
+            <div class="stats">
+              <div class="stat">
+                <strong>4</strong><span>hair stylists</span>
+              </div>
+              <div class="stat">
+                <strong>80%</strong><span>clients are moms</span>
+              </div>
+              <div class="stat">
+                <strong>70%</strong><span>visit from phones</span>
+              </div>
+              <div class="stat">
+                <strong>3</strong><span>clicks to the goal</span>
+              </div>
+            </div>
+          </div>
+          <div aria-label="History and features" class="timeline">
+            <div class="timeline__item">
+              <div class="timeline__year">2019</div>
+              <div>
+                <h3>Salon opening</h3>
+                <p>
+                  Child-focused service, friendly atmosphere and the first loyal
+                  families.
+                </p>
+              </div>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__year">UX</div>
+              <div>
+                <h3>Focus on simplicity</h3>
+                <p>
+                  Sticky header, clear call-to-action buttons and a mobile-first
+                  layout for parents using smartphones.
+                </p>
+              </div>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__year">♥</div>
+              <div>
+                <h3>Children’s comfort</h3>
+                <p>
+                  Game elements, child-friendly seats and masters who know how
+                  to work with little visitors.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section--soft" id="services">
+        <div class="container">
+          <div class="section__head">
+            <p class="eyebrow">Services</p>
+            <h2>Everything for a neat hairstyle and a good mood</h2>
+            <p>
+              Short descriptions, icons and quick booking links are kept from
+              the Russian version.
+            </p>
+          </div>
+          <div class="service-list">
+            <article class="service-card">
+              <div>
+                <div class="emoji">👦</div>
+                <h3>Boys haircuts</h3>
+                <p>Neat shape, calm pace and a playful child-friendly chair.</p>
+              </div>
+              <a class="price" href="#booking">Book →</a>
+            </article>
+            <article class="service-card">
+              <div>
+                <div class="emoji">👧</div>
+                <h3>Girls haircuts</h3>
+                <p>Trimming, bangs, gentle care and a careful approach.</p>
+              </div>
+              <a class="price" href="#booking">Book →</a>
+            </article>
+            <article class="service-card">
+              <div>
+                <div class="emoji">🎀</div>
+                <h3>Holiday hairstyles</h3>
+                <p>
+                  Hairstyles for birthdays, parties, school events and photo
+                  sessions.
+                </p>
+              </div>
+              <a class="price" href="#booking">Book →</a>
+            </article>
+            <article class="service-card">
+              <div>
+                <div class="emoji">🌈</div>
+                <h3>Safe coloring</h3>
+                <p>
+                  Soft children’s shades and consultation before the procedure.
+                </p>
+              </div>
+              <a class="price" href="#booking">Book →</a>
+            </article>
+            <article class="service-card">
+              <div>
+                <div class="emoji">✨</div>
+                <h3>Braids and care</h3>
+                <p>Braids, afro braids and hair-care tips for parents.</p>
+              </div>
+              <a class="price" href="#booking">Book →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="prices">
+        <div class="container">
+          <div class="section__head">
+            <p class="eyebrow">Prices</p>
+            <h2>Affordable prices and clear services</h2>
+            <p>
+              Exact prices can be edited when the final price list is approved.
+            </p>
+          </div>
+          <div class="price-table">
+            <div><strong>Boys haircut</strong><span>from 700 ₽</span></div>
+            <div><strong>Girls haircut</strong><span>from 800 ₽</span></div>
+            <div>
+              <strong>Holiday hairstyle</strong><span>from 1 200 ₽</span>
+            </div>
+            <div>
+              <strong>Safe coloring</strong><span>by consultation</span>
+            </div>
+            <div>
+              <strong>Braids / afro braids</strong><span>from 900 ₽</span>
+            </div>
+            <div>
+              <strong>Hair-care consultation</strong
+              ><span>free with a visit</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section--soft" id="offers">
+        <div class="container">
+          <div class="section__head">
+            <p class="eyebrow">Special offers</p>
+            <h2>Bright promo banners</h2>
+            <p>
+              The brief requires 2–3 banners in the special offers area, without
+              overloaded text.
+            </p>
+          </div>
+          <div class="offer-grid">
+            <article class="offer">
+              <h3>First haircut with a smile</h3>
+              <p>
+                The master introduces the child to the process through play.
+              </p>
+            </article>
+            <article class="offer">
+              <h3>Family Saturday</h3>
+              <p>
+                Convenient time slots for active parents and younger children.
+              </p>
+            </article>
+            <article class="offer">
+              <h3>Party look</h3>
+              <p>Hairstyles, braids and light styling for special events.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section promo-timer" id="promo-timer">
+        <div class="container promo-timer__box">
+          <div>
+            <p class="eyebrow">JS promo timer</p>
+            <h2>Time left until Family Saturday</h2>
+            <p>The timer script is connected as a separate JS file.</p>
+          </div>
+          <div aria-live="polite" class="timer" data-countdown="">
+            <span data-days="">00</span><small>days</small>
+            <span data-hours="">00</span><small>hours</small>
+            <span data-minutes="">00</span><small>min</small>
+            <span data-seconds="">00</span><small>sec</small>
+          </div>
+        </div>
+      </section>
+      <section class="section section--soft" id="gallery">
+        <div class="container">
+          <div class="section__head">
+            <p class="eyebrow">Gallery</p>
+            <h2>Before / after portfolio</h2>
+            <p>
+              The gallery is ready for real photos of children before and after
+              haircuts.
+            </p>
+          </div>
+          <div class="gallery">
+            <figure>
+              <button
+                class="gallery-open"
+                data-caption="Boys haircut — neat shape"
+                data-lightbox="../assets/img/photo-boy-haircut.png"
+                type="button"
+              >
+                <img
+                  alt="Boys haircut example"
+                  loading="lazy"
+                  src="../assets/img/photo-boy-haircut.png"
+                />
+                <figcaption>Boys haircut<span>neat shape</span></figcaption>
+              </button>
+            </figure>
+            <figure>
+              <button
+                class="gallery-open"
+                data-caption="Girls haircut — gentle trimming"
+                data-lightbox="../assets/img/photo-girl-haircut.png"
+                type="button"
+              >
+                <img
+                  alt="Girls haircut example"
+                  loading="lazy"
+                  src="../assets/img/photo-girl-haircut.png"
+                />
+                <figcaption>
+                  Girls haircut<span>gentle trimming</span>
+                </figcaption>
+              </button>
+            </figure>
+            <figure>
+              <button
+                class="gallery-open"
+                data-caption="Holiday hairstyle — event styling"
+                data-lightbox="../assets/img/photo-party-hairstyle.png"
+                type="button"
+              >
+                <img
+                  alt="Holiday hairstyle"
+                  loading="lazy"
+                  src="../assets/img/photo-party-hairstyle.png"
+                />
+                <figcaption>
+                  Holiday hairstyle<span>event styling</span>
+                </figcaption>
+              </button>
+            </figure>
+            <figure>
+              <button
+                class="gallery-open"
+                data-caption="Braids — bright child look"
+                data-lightbox="../assets/img/photo-braids.png"
+                type="button"
+              >
+                <img
+                  alt="Braids"
+                  loading="lazy"
+                  src="../assets/img/photo-braids.png"
+                />
+                <figcaption>Braids<span>bright child look</span></figcaption>
+              </button>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="reviews">
+        <div class="container">
+          <div class="section__head">
+            <p class="eyebrow">Parent reviews</p>
+            <h2>Parents’ trust is the main focus</h2>
+          </div>
+          <div class="reviews">
+            <article class="review">
+              <div class="review__stars">★★★★★</div>
+              <p>
+                My child was afraid of scissors, but the master explained
+                everything through play. We booked again.
+              </p>
+              <strong>Anna, Leo’s mom</strong>
+            </article>
+            <article class="review">
+              <div class="review__stars">★★★★★</div>
+              <p>
+                The website is convenient on a phone: I selected a service, date
+                and time in a couple of minutes.
+              </p>
+              <strong>Ekaterina, Alice’s mom</strong>
+            </article>
+            <article class="review">
+              <div class="review__stars">★★★★★</div>
+              <p>
+                I liked the calm atmosphere and clear hair-care recommendations.
+              </p>
+              <strong>Ilya, Mira’s dad</strong>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section section--soft" id="contacts">
+        <div class="container contact-grid">
+          <div class="contact-card">
+            <p class="eyebrow">Contacts</p>
+            <h2>Visit Fun Scissors</h2>
+            <p>
+              Address, phone number and map are available at the bottom of the
+              main page.
+            </p>
+            <div class="contact-list">
+              <div><span>📍</span> 15 Minusinskaya St., Astrakhan</div>
+              <a href="tel:+79999999999"><span>☎️</span> +7 999 999 999</a>
+              <a href="mailto:nozhnichki@mail.ru"
+                ><span>✉️</span> nozhnichki@mail.ru</a
+              >
+              <a href="https://wa.me/79999999999"><span>💬</span> WhatsApp</a>
+            </div>
+            <a class="btn btn--green" href="contacts.html">Open contact page</a>
+          </div>
+          <div class="map-card">
+            <iframe
+              class="yandex-map"
+              src="https://yandex.ru/map-widget/v1/?mode=search&text=%D0%90%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%B0%D0%BD%D1%8C%2C%20%D1%83%D0%BB.%20%D0%9C%D0%B8%D0%BD%D1%83%D1%81%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%2C%2015&z=16"
+              title="Yandex map: 15 Minusinskaya St., Astrakhan"
+              loading="lazy"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div>
+          <img
+            alt="Fun Scissors"
+            height="52"
+            src="../assets/img/logo.svg"
+            width="180"
+          />
+          <p>
+            A friendly kids hair salon with a playful atmosphere, adapted
+            furniture and simple online booking for parents.
+          </p>
+          <p>
+            Planned website address: Fun-scissors.ru · ©
+            <span data-year=""></span>
+          </p>
+        </div>
+        <div>
+          <h3>Sections</h3>
+          <a href="en.html">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#prices">Prices</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#booking">Booking</a>
+        </div>
+        <div>
+          <h3>Social media</h3>
+          <div class="socials">
+            <a aria-label="VK" href="#">VK</a>
+            <a aria-label="Telegram" href="#">TG</a>
+            <a aria-label="WhatsApp" href="https://wa.me/79999999999">WA</a>
+          </div>
+          <a href="tel:+79999999999">+7 999 999 999</a>
+          <a href="mailto:nozhnichki@mail.ru">nozhnichki@mail.ru</a>
+        </div>
+      </div>
+      <!-- Statistics counters can be connected here after publication. -->
+    </footer>
+    <a class="mobile-call" href="tel:+79999999999">Call administrator</a>
+    <button aria-label="Back to top" class="to-top" data-to-top="">↑</button>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/dropdown-menu.js"></script>
+    <script src="../assets/js/gallery-lightbox.js"></script>
+    <script src="../assets/js/booking-calendar.js"></script>
+    <script src="../assets/js/promo-timer.js"></script>
+  </body>
+</html>
